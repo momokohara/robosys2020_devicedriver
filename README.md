@@ -19,12 +19,12 @@
 ![robosys2020_devicedriver](https://user-images.githubusercontent.com/75324321/102012465-f2e97000-3d8d-11eb-9e68-6fa9dde1b6f1.jpg)
 *LEDのアノード側をGPIO25に接続、カソード側を任意のGNDに接続。*
 ## 実行コマンド
-###1. このリポジトリをクローンする。
+### 1. このリポジトリをクローンする。
 ```
 $ git clone https://github.com/momokohara/robosys2020_devicedriver.git
 
 ```
-###2. ビルド
+### 2. ビルド
 ```
 $ cd robosys2020/myled 
 $ make
@@ -34,7 +34,7 @@ $ sudo chmod 666 /dev/myled0
 - $ sudo insmod myled.koでカーネルモジュールをインストール
 - $ sudo chmod 666 /dev/myled0でファイルのアクセス権を変更
 
-###3. 実行
+### 3. 実行
 #### 2を実行
 ```
 $ echo 2 > /dev/myled0
