@@ -20,7 +20,7 @@
 
 ## 環境構築
 ```
-$ git clone https://github.com/momokohara/robosys2020_devicedriver
+$ git clone https://github.com/momokohara/robosys2020_devicedriver.git
 
 ```
 ## ビルド
