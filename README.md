@@ -16,7 +16,7 @@
 
 ## 回路構成
 *以下のように回路を組む。
-*[回路配線](https://user-images.githubusercontent.com/75324321/102011964-fb8c7700-3d8a-11eb-8e4e-b694eccad6ca.jpg)
+*https://user-images.githubusercontent.com/75324321/102011964-fb8c7700-3d8a-11eb-8e4e-b694eccad6ca.jpg
 *LEDのアノード側をGPIO25に接続、カソード側を任意のGNDに接続。*
 ## 実行コマンド
 1. このリポジトリをクローンする。
