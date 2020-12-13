@@ -31,8 +31,8 @@ $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 ```
-*$ sudo insmod myled.koでカーネルモジュールをインストール
-$ sudo chmod 666 /dev/myled0でファイルのアクセス権を変更*
+-$ sudo insmod myled.koでカーネルモジュールをインストール
+-$ sudo chmod 666 /dev/myled0でファイルのアクセス権を変更
 3.　実行
 #### 2を実行
 ```
@@ -51,8 +51,8 @@ $ echo 0 > /dev/myled0
 $ sudo rmmod myled
 $ make clean
 ```
-*$ sudo rmmod myledでカーネルモジュールのアンインストール
-$ make cleanでカーネルモジュールを消去*
+-$ sudo rmmod myledでカーネルモジュールのアンインストール
+-$ make cleanでカーネルモジュールを消去
 ## デモ動画
 *デモ動画のリンクは[こちら](https://youtu.be/eBIpdAT1aKY)。*
 
