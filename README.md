@@ -17,13 +17,13 @@
 ## 回路構成
 *以下のように回路を組む。*
 *LEDのアノード側をGPIO25に接続、カソード側を任意のGNDに接続。*
-
-## 環境構築
+## 実行コマンド
+1. このリポジトリをクローンする。
 ```
 $ git clone https://github.com/momokohara/robosys2020_devicedriver.git
 
 ```
-## ビルド
+2.　ビルド
 ```
 $ cd robosys2020/myled 
 $ make
@@ -31,7 +31,7 @@ $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 ```
 
-## 実行結果
+## 実行方法と結果
 #### 2を実行
 ```
 $ echo 2 > /dev/myled0
@@ -42,14 +42,11 @@ $ echo 2 > /dev/myled0
 ```
 $ echo 1 > /dev/myled0
 ```
-*以下のように動作する*
 
 #### 0を実行
 ```
 $ echo 0 > /dev/myled0
 ```
-*以下のように動作する*
-
 ## デモ動画
+*デモ動画のリンクは[こちら](https://youtu.be/eBIpdAT1aKY)。*
 
-## ライセンス
