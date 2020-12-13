@@ -16,7 +16,7 @@
 
 ## 回路構成
 *以下のように回路を組む。
-*https://user-images.githubusercontent.com/75324321/102011964-fb8c7700-3d8a-11eb-8e4e-b694eccad6ca.jpg
+https://user-images.githubusercontent.com/75324321/102011964-fb8c7700-3d8a-11eb-8e4e-b694eccad6ca.jpg
 *LEDのアノード側をGPIO25に接続、カソード側を任意のGNDに接続。*
 ## 実行コマンド
 1. このリポジトリをクローンする。
@@ -31,8 +31,9 @@ $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 ```
-
-## 実行方法と結果
+*$ sudo insmod myled.koでカーネルモジュールをインストール*
+*$ sudo chmod 666 /dev/myled0でファイルのアクセス権を変更*
+3．実行
 #### 2を実行
 ```
 $ echo 2 > /dev/myled0
@@ -48,6 +49,13 @@ $ echo 1 > /dev/myled0
 ```
 $ echo 0 > /dev/myled0
 ```
+*実行後は以下のコマンドを入力*
+```
+$ sudo rmmod myled
+$ make clean
+```
+*$ sudo rmmod myledでカーネルモジュールのアンインストール*
+*$ make cleanでカーネルモジュールを消去*
 ## デモ動画
 *デモ動画のリンクは[こちら](https://youtu.be/eBIpdAT1aKY)。*
 
