@@ -19,7 +19,7 @@
 ![robosys2020_devicedriver](https://user-images.githubusercontent.com/75324321/102012465-f2e97000-3d8d-11eb-9e68-6fa9dde1b6f1.jpg)
 *LEDのアノード側をGPIO25に接続、カソード側を任意のGNDに接続。*
 ## 実行コマンド
-### 1. このリポジトリをクローンする。
+### 1. 環境の構築
 ```
 $ git clone https://github.com/momokohara/robosys2020_devicedriver.git
 
