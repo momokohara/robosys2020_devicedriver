@@ -15,7 +15,7 @@
 - ジャンパー戦(オス―メス) 2本
 
 ## 回路構成
-*以下のように回路を組む。
+*以下のように回路を組む。*
 https://user-images.githubusercontent.com/75324321/102011964-fb8c7700-3d8a-11eb-8e4e-b694eccad6ca.jpg
 *LEDのアノード側をGPIO25に接続、カソード側を任意のGNDに接続。*
 ## 実行コマンド
