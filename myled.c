@@ -2,7 +2,7 @@
 // Copyright (C) 2020 Momoko Hara and Ryuichi Ueda. All right reserved.
 
 
- #include <linux/module.h>
+#include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
 #include <linux/device.h>
